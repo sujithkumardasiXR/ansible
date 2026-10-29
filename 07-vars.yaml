@@ -7,7 +7,7 @@
     prompt: "Enter your username"
     private: no
 
-    - name: password
+  - name: password
     prompt: "Enter your password"
     private: yes
 
