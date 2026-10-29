@@ -1,7 +1,6 @@
-- name: play level variables
+- name: inventory variables
   hosts: local
   connection: local
-
   tasks:
   - name: print variables
     ansible.builtin.debug:
