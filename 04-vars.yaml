@@ -1,11 +1,11 @@
 - name: play level variables
   hosts: local
-  connections: local
+  connection: local
   vars:
-    Course: "DevOps with AWS"
-    Trainer: "Sivakumar Reddy"
-    Duration: "150hours"
-  tasks: 
-  - name: print the Variables
+    COURSE: "DevOps with AWS"
+    DURATION: "140HRS"
+    TRAINER: "Sivakumar Reddy"
+  tasks:
+  - name: print variables
     ansible.builtin.debug:
-        msg: "Course: {{ Course }}, Trainer: {{ Trainer }}, Duration: {{ Duration }}"
+      msg: "Course is: {{ COURSE }}, Trainer is: {{ TRAINER }}"
