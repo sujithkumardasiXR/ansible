@@ -1,7 +1,6 @@
 - name: variables from arrgs
   hosts: local
   connections: local
-
   tasks:
   - name: print varibales from the args
     ansible.builtin.debug:
